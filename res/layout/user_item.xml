@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItem"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        style="@style/AvatarLarge"
+        android:contentDescription="@string/avatar" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        style="@style/ListTitleText"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:singleLine="true"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/m_bookmark"
+        android:icon="@drawable/menu_bookmark"
+        android:showAsAction="never"
+        android:title="@string/bookmark"/>
+    <item
+        android:id="@+id/m_filter"
+        android:icon="@drawable/menu_filter"
+        android:showAsAction="never"
+        android:title="@string/filter"/>
+    <item
+        android:id="@+id/create_issue"
+        android:icon="@drawable/action_create"
+        android:showAsAction="never"
+        android:title="@string/create"/>
+    <item
+        android:id="@+id/m_search"
+        android:icon="@drawable/action_search"
+        android:showAsAction="never"
+        android:title="@string/find_issues"/>
+    <item
+        android:id="@+id/m_refresh"
+        android:icon="@drawable/menu_refresh"
+        android:showAsAction="never"
+        android:title="@string/refresh"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        style="@style/AvatarMedium"
+        android:contentDescription="@string/avatar" />
+
+    <TextView
+        android:id="@+id/tv_issue_creation"
+        style="@style/ListSubtitleText"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="2dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_pull_request_icon"
+        style="@style/ListIcon"
+        android:paddingRight="5dp"
+        android:text="@string/icon_pull_request" />
+
+    <TextView
+        android:id="@+id/tv_comment_icon"
+        style="@style/ListIcon"
+        android:text="@string/icon_comment" />
+
+    <TextView
+        android:id="@+id/tv_issue_comments"
+        style="@style/ListNumericSubtitleText"
+        android:paddingLeft="5dp" />
+
+</merge>
